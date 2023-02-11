@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
     <title>Previsão do tempo</title>
 </head>
 
@@ -13,11 +16,25 @@
         <img class="banner" src="./img/banner.png">
     </header>
 
+    <main>
+        <div>
+            <input class="city_box" type="text">
+            <button class="btn_search"><i>Buscar</i></button>
+        </div>
+        <div class="content" style="display: none;">
+            <h2 id="place"></h2>
+            <span id="degrees"></span>
+            <br />
+            <span id="wind"></span>
+            <img src="" alt="Clima" />
+        </div>
+        
+    </main>
 
-
+    
     
 
 
-
+    <script src="script.js"></script>
 </body>
 </html>
