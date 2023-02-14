@@ -5,9 +5,9 @@
 }
 
 body{
-    text-align: center;
     background-image: linear-gradient(to right, #5dadec, #5ce1e6,#e1e8ed);
     font-family: 'Itim', cursive;
+    text-align: center;
 }
 
 .banner {
@@ -16,8 +16,9 @@ body{
 
 input {
     border-radius: 10px;
-    padding: 20px;
+    font-size: 20px;
     height: 20px;
+    padding: 20px;
 }
 
 #button-addon2 {
@@ -26,14 +27,19 @@ input {
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
   cursor: pointer;
+  font-family: 'Poppins', sans-serif;
   font-size: 14px;
+  font-weight: bold;
   margin: 5px;
   padding: 12px;
-  font-family: 'Poppins', sans-serif;
-  font-weight: bold;
 }
 
 main {
   font-size: 20px;
   margin: 15px 0;
+}
+
+.infos {
+  font-size: 25px;
+  margin: 15px;
 }
