@@ -93,6 +93,9 @@ function displayResults(weather) {
     weather_t.innerHTML = weather.weather[0].description;
 
     low_high.innerHTML = `${Math.round(weather.main.temp_min)}°c / ${Math.round(weather.main.temp_max)}°c`;
+
+    let iconName = weather.weather[0].icon;
+    container_img.innerHTML = `<img src="./img/icons/${iconName}.png">`;
 }
 
 function dateBuilder(d) {
