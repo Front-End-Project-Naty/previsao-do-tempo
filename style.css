@@ -36,11 +36,21 @@ input {
 
 main {
   font-size: 20px;
-  margin: 15px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 50px;
+}
+
+.card {
+  margin-left: 400px;
 }
 
 .infos {
   font-size: 25px;
-  margin: 15px;
+  margin-right: 400px;
+}
+
+.tenor-gif-embed {
+  margin: 20px auto;
 }
 
