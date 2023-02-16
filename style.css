@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    padding: 0;
     margin: 0;
+    padding: 0;
 }
 
 body{
@@ -35,8 +35,8 @@ input {
 }
 
 main {
-  font-size: 20px;
   display: grid;
+  font-size: 20px;
   grid-template-columns: 1fr 1fr;
   padding: 50px;
 }
@@ -70,10 +70,8 @@ main {
  }
  
  .infos {
-  margin: 15px auto;
   display: flex;
   flex-direction: column;
+  margin: 15px auto;
  }
-
-
 }
