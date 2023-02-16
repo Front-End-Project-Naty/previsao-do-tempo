@@ -22,7 +22,7 @@ input {
 }
 
 #button-addon2 {
-  background-image: linear-gradient(#0dccea, #0d70ea);
+  background-image: linear-gradient(#0d7a8a, #0d70ea);
   border: 0;
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, .3) 0 5px 15px;
@@ -30,7 +30,7 @@ input {
   font-family: 'Poppins', sans-serif;
   font-size: 14px;
   font-weight: bold;
-  margin: 5px;
+  margin: 8px;
   padding: 12px;
 }
 
@@ -46,11 +46,34 @@ main {
 }
 
 .infos {
-  font-size: 25px;
+  font-size: 23px;
   margin-right: 400px;
+  margin-top: 33px;
 }
 
 .tenor-gif-embed {
   margin: 20px auto;
 }
 
+@media screen and (max-width: 768px) {
+  .banner {
+      width: 100%;
+  }
+
+ .card {
+  margin: 0 auto;
+ }
+
+ main {
+  display: flex;
+  flex-wrap: wrap;
+ }
+ 
+ .infos {
+  margin: 15px auto;
+  display: flex;
+  flex-direction: column;
+ }
+
+
+}
